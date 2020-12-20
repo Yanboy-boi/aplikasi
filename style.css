@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 14, 2020, 11:30:45 PM
+    Author     : rianw
+*/
+
+.body {
+    height: 800px ;
+    width: 1340px ;
+    background: linear-gradient(to right, #83C034, #FBEF12);
+    z-index: -10;
+}
+.head {
+    text-align: right;
+    position: absolute;
+    top: 40px;
+    left: 490px;
+    font-size: 42px;
+    color: white;
+}
+.menu {
+    position: absolute;
+    top: 280px;
+    left: 130px;
+    background-color: white;
+    border-radius: 80px;
+    width: 1100px;
+    height: 135px;
+    -moz-box-shadow: 0 0 5px 5px #888;
+    -webkit-box-shadow: 0 0 5px 5px #888;
+    box-shadow: 0 0 20px #6FB03A;
+}
+
+#input a {
+    margin: auto 60px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+#dosen {
+    background-color: gray;
+    z-index: 1;
+}
+
+.icon1 {
+    position: absolute;
+    top : 8px;
+    left: 16px;
+    z-index: 20;
+    margin-left: 0px;
+}
+.icon2 {
+    position: absolute;
+    top : 8px;
+    left: 16px;
+    z-index: 20;
+    margin-left: 365px;
+}
+.icon3 {
+    position: absolute;
+    top : 8px;
+    left: 16px;
+    z-index: 20;
+    margin-left: 734px;
+}
